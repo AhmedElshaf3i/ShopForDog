@@ -1,0 +1,567 @@
+html {
+    font-size: 16px;
+}
+
+.navBar {
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+    padding: 1.8rem 5rem 0 4.7rem;
+}
+
+.bgNavColor {
+    background-color: #73acc7 !important;
+}
+
+.nav-item {
+    padding-left: 2rem;
+}
+
+.logo {
+    /* width: 39.3%; */
+    width: 16rem;
+    cursor: pointer;
+}
+
+.logoImg {
+    /* width: 30%;
+    height: 100%;
+    padding-right: 7%; */
+    margin-right: 0.93rem;
+    width: 4.8rem;
+    height: 4rem;
+}
+
+.logoImg img {
+    width: 100%;
+    height: 100%;
+}
+
+#navbarNav {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.67px;
+}
+
+.companyName {
+    height: 100%;
+    width: 10.25rem;
+}
+
+.companyName span {
+    background-color: #452a31;
+    font-size: 2rem;
+    color: #c9ebfb;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: normal;
+}
+
+
+/************************header txt********************/
+
+
+/*************************header doc image****************/
+
+header {
+    background-image: radial-gradient( circle 782px at -493.05% -210.58%, #c9ebfb 0%, #73acc7 100%);
+}
+
+.headerContent {
+    padding-top: 11rem;
+}
+
+.headerDog {
+    background-image: url(../images/Dog_Image_header.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 31.125rem;
+    height: 30.625rem;
+}
+
+.headerDog img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/**************header text******************/
+
+.headerDrayFood {
+    transform: translate(-15%, 20%);
+    width: 32.5rem;
+    height: 28.5rem;
+}
+
+.headerDrayFood img {
+    width: 100%;
+    height: 100%;
+}
+
+.headerText {
+    color: #452a31;
+    font-size: 2.6rem;
+    font-weight: bold;
+    line-height: 45.83px;
+    font-family: "Amatic SC", cursive;
+    padding: 0 27% 5% 20%;
+}
+
+.headerText span {
+    color: #0072a8;
+}
+
+.headerTextInFram {
+    transform: rotate(348deg);
+    color: #0072a8;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 3.79rem;
+    font-family: "Amatic SC", cursive;
+}
+
+.headerTextFrame {
+    background-image: url(../images/headerTextFrame.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 14% 26% 14% 18%;
+}
+
+.headerTextFrameImg img {
+    transform: rotate(373deg);
+    width: 100%;
+    height: 100%;
+}
+
+
+/************************************story section***************************/
+
+.ourStory {
+    background-image: url(../images/Dog2Story.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* margin-left: 270px; */
+    /* text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     */
+    width: 26.75rem;
+    height: 40.375rem;
+    margin-top: 15%;
+    /* margin-bottom: -50%; */
+    margin-bottom: -250px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testText {
+    padding: 0 0px 75% 60%;
+}
+
+.ourStory h4 {
+    /* Style for "Our" */
+    color: #452a31;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 0;
+    text-transform: uppercase;
+}
+
+.ourStory h3 {
+    /* Style for "Story" */
+    color: #2ea2d0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.storyDesc {
+    /* Style for "Lorem ipsu" */
+    color: #3d3d3d;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 8rem 1rem 0.5rem 4rem;
+}
+
+.storyDrayFood {
+    /* width:30.75rem ;
+    height: 28.5rem; */
+    width: 27rem;
+    height: 25rem;
+    position: absolute;
+    /* top: -25.6rem; */
+    top: -21.6rem;
+    left: -3rem;
+}
+
+.storyDrayFood img {
+    width: 100%;
+    height: 100%;
+}
+
+.storyDog {
+    width: 26.75rem;
+    height: 39.25rem;
+    position: absolute;
+    bottom: -10.5rem;
+    left: 0;
+}
+
+.storyDog img {
+    width: 100%;
+    height: 100%;
+}
+
+.storyInf {
+    padding: 7.63rem 2.75rem 0 13rem;
+}
+
+.storyDrayFoodImg2 {
+    width: 22rem;
+    height: 20.125rem;
+    margin-top: 5rem;
+    margin-bottom: 3.7rem;
+}
+
+.storyDrayFoodImg2 img {
+    width: 100%;
+    height: 100%;
+}
+
+#readMoreBtn {
+    width: 7.89rem;
+    color: #2ea2d0;
+    font-family: "Montserrat - Semi Bold";
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2.67px;
+    margin-bottom: 4rem;
+}
+
+#readMoreText {
+    display: none;
+}
+
+
+/***********************************chicken section*****************/
+
+.chicken {
+    padding: 6rem 0 4.9rem;
+    background-image: url(../images/Chicken_Image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+
+.chickenHeadText {
+    width: 372px;
+    height: 95px;
+    font-family: "Amatic SC";
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10rem;
+}
+
+.chickenHeadText h6 {
+    font-weight: bold;
+    font-size: 33px;
+    letter-spacing: 5.33px;
+}
+
+.chickenHeadText h3 {
+    font-size: 3.9rem;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.chicken .checkinText p {
+    width: 52rem;
+    height: 3.3rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+
+/************************************blackDock section**************************/
+
+.blackockSection {
+    margin: 5.687rem 13rem 10rem 13rem;
+}
+
+.blackDockDesc {
+    padding-top: 5rem;
+}
+
+.blackDockDesc h4 {
+    /* Style for "The perfec" */
+    color: #452a31;
+    font-family: "Amatic SC";
+    font-size: 3.37rem;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.blackDockDesc span {
+    display: none;
+}
+
+.blackDockDesc p,
+.blackDockDesc span {
+    /* Style for "Lorem ipsu" */
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.blackDockImg {
+    width: 23.7rem;
+    height: 26.5rem;
+    /* width: 27rem;
+    height: 30.3rem; */
+}
+
+.blackDockImg img {
+    width: 100%;
+    height: 100%;
+}
+
+#LearnMoreBtn {
+    background-color: #2ea2d0;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0;
+    margin-top: 1rem;
+}
+
+
+/***********************************/
+
+.ReadMoreBtnStyle {
+    padding: 15.5px 23px;
+    background-color: #2ea2d0;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0;
+    margin-top: 1rem;
+}
+
+
+/**************************************************searchSection****************/
+
+.searchSection {
+    background-color: #f0f0f0;
+}
+
+.searchContent {
+    padding: 6.25rem 4.687rem 4rem 6.87rem;
+}
+
+.searchDogImg {
+    bottom: 12.5rem;
+    top: -12.5rem;
+    left: 0;
+    right: 0;
+    width: 15.625rem;
+    height: 35.5rem;
+}
+
+.searchDogImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.searchHeadText h3 {
+    /* Style for "Learn more" */
+    color: #452a31;
+    font-family: "Amatic SC";
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.searchHeadText p {
+    /* Style for "There are" */
+    /* width: 24.5rem;
+    height: 2.375rem; */
+    color: #3d3d3d;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.06rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.searchIcon {
+    margin-left: -20px;
+}
+
+
+/******************************************foodProducts********************************/
+
+.foodProductsImg {
+    width: 22rem;
+    height: 20rem;
+}
+
+.foodProductsImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.foodProducts {
+    padding: 7rem 0 7rem 7rem;
+}
+
+#viewProductsBtn {
+    margin-top: 3rem;
+}
+
+
+/************************************contactInfo****************************************/
+
+.contactInfo {
+    padding: 2rem;
+    ;
+}
+
+.contactImg {
+    background-image: url(../images/contactDog.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.contactImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.ContactCont {
+    padding-left: 3rem;
+}
+
+.testComNamImg {
+    width: 16rem;
+    height: 4rem;
+}
+
+.testComNamImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.contactFramImg {
+    background-image: url(../images/contactFrameImg.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 26rem;
+    height: 22.37rem;
+}
+
+.contactFramImg img {
+    widows: 100%;
+    height: 100%;
+}
+
+.contactDogCategory {
+    width: 23.56rem;
+    height: 3.18rem;
+    color: #452a31;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.06rem;
+    font-weight: 700;
+    line-height: 37.5px;
+    text-transform: uppercase;
+    padding-bottom: 6rem;
+    margin-left: 5rem;
+    letter-spacing: 1.1px;
+}
+
+.contactDogCategory span {
+    padding-right: 2.2rem;
+}
+
+.footer {
+    /* Style for "© Company" */
+    width: 20rem;
+    height: 1.06rem;
+    color: #010101;
+    font-family: "Montserrat";
+    font-size: .8rem;
+    font-weight: 600;
+    margin-left: 5rem;
+}
+
+.mediaIcon {
+    margin-left: 4rem;
+}
+
+.mediaIcon span i {
+    border-radius: 50% !important;
+    color: #2ea2d0;
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+.clr {
+    clear: both;
+}
